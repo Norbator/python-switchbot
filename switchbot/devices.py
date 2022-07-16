@@ -75,7 +75,7 @@ class Bot(Device):
 
     def turn(self, state: str):
         state = state.lower()
-        assert state in ('on', 'off')
+        assert state in {'on', 'off'}
         self.command(f'turn_{state}')
 
     def press(self):

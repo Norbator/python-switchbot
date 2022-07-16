@@ -52,7 +52,7 @@ class Remote:
 class SupportedRemote(Remote):
     def turn(self, state: str):
         state = state.lower()
-        assert state in ('on', 'off')
+        assert state in {'on', 'off'}
         self.command(f'turn_{state}')
 
 class OtherRemote(Remote):
