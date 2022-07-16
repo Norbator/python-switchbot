@@ -20,7 +20,6 @@ status_key_mapping = {
     'slide_position': 'slide_position',
     'mode': 'mode',
     'speed': 'speed',
-    'speed': 'speed',
     'shaking': 'oscillating',
     'shake_center': 'oscillating_center',
     'shake_range': 'oscillating_range'
